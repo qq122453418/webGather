@@ -1,0 +1,11 @@
+{
+    "require": {
+        "tool-package/matcher": "^1.0.0",
+        "tool-package/rurl": "^1.0.1"
+    },
+    "autoload": {
+      "classmap": ["Gather.php", "PageLink.php"],
+      "psr-4": {
+      }
+    }
+}

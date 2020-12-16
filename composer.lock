@@ -1,0 +1,112 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "65c1c9542f60e7a8af725cc4f707ce59",
+    "packages": [
+        {
+            "name": "tool-package/matcher",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/qq122453418/matcher.git",
+                "reference": "b2868368a781789804830d392d1d35907c0d8202"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/qq122453418/matcher/zipball/b2868368a781789804830d392d1d35907c0d8202",
+                "reference": "b2868368a781789804830d392d1d35907c0d8202",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "tool-package",
+            "autoload": {
+                "psr-4": {
+                    "ToolPackage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "fuwang",
+                    "email": "122453418@qq.com"
+                }
+            ],
+            "description": "简单好用的文本提取工具",
+            "keywords": [
+                "正则"
+            ],
+            "time": "2020-12-14T20:04:47+00:00"
+        },
+        {
+            "name": "tool-package/rurl",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/qq122453418/rurl.git",
+                "reference": "95b2e7fe2ae91d4ebbed6feb2e6b4b52bc369450"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/qq122453418/rurl/zipball/95b2e7fe2ae91d4ebbed6feb2e6b4b52bc369450",
+                "reference": "95b2e7fe2ae91d4ebbed6feb2e6b4b52bc369450",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "type": "tool-package",
+            "autoload": {
+                "psr-4": {
+                    "ToolPackage\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "fuwang",
+                    "email": "122453418@qq.com"
+                }
+            ],
+            "description": "CURL request url(curl 请求 url)",
+            "keywords": [
+                "Rurl",
+                "curl",
+                "url",
+                "访问url",
+                "请求url"
+            ],
+            "time": "2020-12-16T06:44:10+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
